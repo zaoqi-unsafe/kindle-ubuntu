@@ -1,0 +1,3 @@
+#!/bin/sh
+cd $(dirname $0)
+./no-lab126 ./start-chroot "$(./mod-begin)$(./mod-wifi)$(./mod-x11 awesome)$(./mod-end)"

@@ -1,0 +1,6 @@
+#!/bin/sh
+cd $(dirname $0)
+. conf
+echo "
+sudo -u $user -i sh -c 'Xephyr :1 -title L:A_N:application_ID:xephyr_0:R_PC:N -screen 600x800 -cc 4 -dpi 167 -nocursor &sleep 1;DISPLAY=:1 exec $1'
+"

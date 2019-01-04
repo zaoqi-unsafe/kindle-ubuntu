@@ -1,0 +1,9 @@
+#!/bin/sh
+cd $(dirname $0)
+. conf
+echo "
+export HOME=/root
+unset LC_ALL
+export SHELL=/bin/bash
+export LANG=$language
+"

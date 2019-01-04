@@ -1,0 +1,5 @@
+{
+	"items": [
+		{"name": "Ubuntu/awesome", "priority": 1, "action": "./app-awesome"}
+	]
+}

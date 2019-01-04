@@ -1,0 +1,11 @@
+#!/bin/sh
+cd $(dirname $0)
+. conf
+killall wpa_supplicant
+echo "
+killall wpa_supplicant
+wpa_supplicant -t -c /etc/wpa_supplicant.conf -i wlan0 -d -s -D nl80211&
+/etc/init.d/dbus start
+/etc/init.d/wicd stop
+/etc/init.d/wicd start
+"

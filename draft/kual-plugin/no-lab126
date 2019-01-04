@@ -1,0 +1,45 @@
+#!/bin/sh
+# Check which type of init system we're running on
+if [ -d /etc/upstart ]; then
+    export INIT_TYPE="upstart"
+else
+    export INIT_TYPE="sysv"
+fi
+
+# Go away if we're on FW 5.0, it's not supported
+if [ "${INIT_TYPE}" = "upstart" ]; then
+    if grep '^Kindle 5\.0' /etc/prettyversion.txt >/dev/null 2>&1; then
+        # "FW 5.0 is not supported. Update to 5.1!"
+        # And... scene!
+        exit 0
+    fi
+fi
+
+    # Yield a bit to let stuff stop properly...
+    # NOTE: This may or may not be terribly useful...
+    usleep 250000
+
+    # If we were started by the KUAL Kindlet, and not the Booklet, we have a nice value to correct...
+    if [ "$(nice)" = "5" ]; then
+        # Kindlet threads spawn with a nice value of 5, go back to a neutral value
+        renice -n -5 $$
+    fi
+
+# The framework job sends a SIGTERM on stop, trap it so we don't get killed if we were launched by KUAL
+trap "" TERM
+
+    # Upstart or SysV?
+    if [ "${INIT_TYPE}" = "sysv" ]; then
+        /etc/init.d/framework stop
+    else
+        stop lab126_gui
+        # NOTE: Let the framework teardown finish, so we don't start before the black screen...
+        usleep 1250000
+    fi
+
+killall -stop getty volumd
+
+# And remove the trap like a ninja now!
+trap - TERM
+
+exec "$@"

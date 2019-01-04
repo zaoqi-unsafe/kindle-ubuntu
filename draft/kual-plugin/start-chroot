@@ -1,0 +1,21 @@
+#!/bin/sh
+swapon /mnt/base-us/SWAP
+cd $(dirname $0)
+cd rootfs
+cd $(pwd | sed 's|/us/|/base-us/|')
+mount --bind /dev ./dev
+mount --bind /dev/pts ./dev/pts
+mount --bind /proc ./proc
+mount --bind /sys ./sys
+mount --bind /tmp ./tmp
+same(){
+[ -e /"$1" ] && rm -fr ./"$2"
+cp -r /"$1" ./"$2" || cp -r ./"$2" /"$1"
+mount --bind /"$1" ./"$2"
+}
+same var/run/wpa_supplicant run/wpa_supplicant
+same var/run/resolv.conf etc/resolv.conf
+same etc/wpa_supplicant.conf etc/wpa_supplicant.conf
+
+chroot . /bin/sh -c "$*"
+reboot
