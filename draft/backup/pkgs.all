@@ -18,6 +18,7 @@ libkrb5-3		install
 libgssapi-krb5-2		install
 libpangoft2-1.0-0		install
 dbus-x11		install
+netsurf-common		install
 ubuntu-keyring		install
 libnghttp2-14		install
 libseccomp2		install
@@ -33,6 +34,7 @@ libvte-2.91-0		install
 libcups2		install
 libdbus-1-3		install
 libwind0-heimdal		install
+netsurf-gtk		install
 libsemanage1		install
 sysvinit-utils		install
 libfdisk1		install
@@ -46,6 +48,7 @@ libsasl2-modules-db		install
 xserver-common		install
 liblist-moreutils-perl		install
 libxcb-xfixes0		install
+libcurl4		install
 libgtk2.0-bin		install
 libapt-inst2.0		install
 libxcb-xrm0		install
@@ -257,7 +260,6 @@ libxrandr2		install
 libjpeg8		install
 libdrm2		install
 libxcb-shape0		install
-dillo		install
 libglx0		install
 libcolord2		install
 shared-mime-info		install
@@ -334,6 +336,7 @@ libzstd1		install
 lsb-base		install
 libkrb5-26-heimdal		install
 wget		install
+netsurf		install
 libcryptsetup12		install
 x11-common		install
 gtk-update-icon-cache		install
@@ -378,6 +381,7 @@ python-minimal		install
 libglib2.0-0		install
 libdconf1		install
 libidn2-0		install
+libjpeg62-turbo		install
 install-info		install
 libgtk2-perl		install
 libaudit1		install
