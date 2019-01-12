@@ -22,6 +22,7 @@ dbus-x11		install
 ubuntu-keyring		install
 libnghttp2-14		install
 libseccomp2		install
+e2fsprogs-l10n		install
 libdrm-freedreno1		install
 glib-networking-services		install
 diffutils		install
@@ -53,7 +54,6 @@ libldap-2.4-2		install
 libegl1		install
 libxapian30		install
 libpam-modules		install
-openssl		install
 libgirepository-1.0-1		install
 libgdk-pixbuf2.0-0		install
 libproxy1v5		install
@@ -106,6 +106,7 @@ libgpg-error0		install
 python-dbus		install
 humanity-icon-theme		install
 libbsd0		install
+e2fsprogs		install
 zlib1g		install
 libavahi-common-data		install
 libgmp10		install
@@ -158,7 +159,6 @@ libgail18		install
 libxcb-render0		install
 libpam-runtime		install
 gir1.2-freedesktop		install
-libmagic1		install
 xkb-data		install
 libapt-pkg5.0		install
 python		install
@@ -217,7 +217,6 @@ libxcomposite1		install
 adwaita-icon-theme		install
 libgtk-3-bin		install
 libc-bin		install
-libmagic-mgc		install
 libsasl2-modules		install
 libpangocairo-1.0-0		install
 psmisc		install
@@ -300,7 +299,6 @@ libdb5.3		install
 libmagickcore-6.q16-3		install
 iputils-ping		install
 libgtk2.0-common		install
-bzip2		install
 bsdutils		install
 libasound2		install
 libgraphite2-3		install
@@ -325,7 +323,6 @@ libjbig0		install
 findutils		install
 libcap-ng0		install
 libxml2		install
-file		install
 emacs25-el		install
 libvte-2.91-common		install
 libxmu6		install
@@ -337,7 +334,6 @@ libgnutls30		install
 libedit2		install
 libroken18-heimdal		install
 libfreetype6		install
-ca-certificates		install
 perl		install
 xauth		install
 libffi6		install
