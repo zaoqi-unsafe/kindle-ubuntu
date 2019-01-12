@@ -53,6 +53,7 @@ libldap-2.4-2		install
 libegl1		install
 libxapian30		install
 libpam-modules		install
+openssl		install
 libgirepository-1.0-1		install
 libgdk-pixbuf2.0-0		install
 libproxy1v5		install
@@ -322,6 +323,7 @@ libgnutls30		install
 libedit2		install
 libroken18-heimdal		install
 libfreetype6		install
+ca-certificates		install
 perl		install
 xauth		install
 libffi6		install
