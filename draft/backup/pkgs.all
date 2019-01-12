@@ -16,7 +16,6 @@ libwebp6		install
 libglade2-0		install
 libkrb5-3		install
 libgssapi-krb5-2		install
-libpython3.6-minimal		install
 libpangoft2-1.0-0		install
 dbus-x11		install
 ubuntu-keyring		install
@@ -94,7 +93,6 @@ gcc-8-base		install
 libpam-cap		install
 libsqlite3-0		install
 librsvg2-common		install
-libpython3.6-stdlib		install
 libxrender1		install
 libbz2-1.0		install
 libicu60		install
@@ -122,21 +120,17 @@ sudo		install
 libncurses5		install
 python2.7		install
 libgtk2.0-0		install
-rlwrap		install
 libheimbase1-heimdal		install
-xfonts-utils		install
 libc6		install
 netbase		install
 libxcursor1		install
 util-linux		install
 lxterminal		install
-python3.6		install
 coreutils		install
 python-cairo		install
 liblocale-gettext-perl		install
 git		install
 libthai-data		install
-python3		install
 libsepol1		install
 libpolkit-agent-1-0		install
 libk5crypto3		install
@@ -162,7 +156,6 @@ gir1.2-freedesktop		install
 xkb-data		install
 libapt-pkg5.0		install
 python		install
-libmpdec2		install
 libncursesw5		install
 fontconfig-config		install
 libprocps6		install
@@ -191,7 +184,6 @@ libwayland-client0		install
 libperl5.26		install
 libcairo-perl		install
 libsemanage-common		install
-python3.6-minimal		install
 libstartup-notification0		install
 xserver-xephyr		install
 libext2fs2		install
@@ -207,7 +199,6 @@ fontconfig		install
 libtiff5		install
 libotf0		install
 libllvm6.0		install
-python3-minimal		install
 libxau6		install
 libxaw7		install
 xvkbd		install
@@ -234,7 +225,6 @@ libxt6		install
 libpcre3		install
 sed		install
 libcap2		install
-libpython3-stdlib		install
 libgif7		install
 libxinerama1		install
 tar		install
@@ -253,7 +243,6 @@ libhcrypto4-heimdal		install
 ucf		install
 libxcb-keysyms1		install
 libkeyutils1		install
-libxmuu1		install
 libxcb-xv0		install
 libxft2		install
 libselinux1		install
@@ -264,7 +253,6 @@ libpam-systemd		install
 libxfont2		install
 libxrandr2		install
 libjpeg8		install
-xz-utils		install
 libdrm2		install
 libxcb-shape0		install
 dillo		install
@@ -275,7 +263,6 @@ systemd		install
 libgomp1		install
 libsmartcols1		install
 menu		install
-rfkill		install
 wpasupplicant		install
 libgdk-pixbuf2.0-bin		install
 grep		install
@@ -326,7 +313,6 @@ libxml2		install
 emacs25-el		install
 libvte-2.91-common		install
 libxmu6		install
-xfonts-base		install
 libidn11		install
 libpython2.7-minimal		install
 multiarch-support		install
@@ -335,7 +321,6 @@ libedit2		install
 libroken18-heimdal		install
 libfreetype6		install
 perl		install
-xauth		install
 libffi6		install
 libunistring2		install
 libp11-kit0		install
@@ -363,7 +348,6 @@ libgdbm-compat4		install
 synaptic		install
 libice6		install
 gettext-base		install
-xfonts-encodings		install
 python-gobject-2		install
 libcairo2		install
 python-glade2		install
