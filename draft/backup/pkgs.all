@@ -2,7 +2,6 @@ libpam0g		install
 debconf		install
 libgssapi3-heimdal		install
 fdisk		install
-libfltk1.3		install
 libjson-glib-1.0-0		install
 libxdmcp6		install
 perl-base		install
