@@ -243,6 +243,7 @@ libhcrypto4-heimdal		install
 ucf		install
 libxcb-keysyms1		install
 libkeyutils1		install
+libxmuu1		install
 libxcb-xv0		install
 libxft2		install
 libselinux1		install
@@ -282,6 +283,7 @@ libx11-data		install
 libgl1-mesa-dri		install
 libreadline7		install
 libgdk-pixbuf2.0-common		install
+openssh-client		install
 libdb5.3		install
 libmagickcore-6.q16-3		install
 iputils-ping		install
@@ -321,6 +323,7 @@ libedit2		install
 libroken18-heimdal		install
 libfreetype6		install
 perl		install
+xauth		install
 libffi6		install
 libunistring2		install
 libp11-kit0		install
@@ -365,6 +368,7 @@ libip4tc0		install
 libxcb-dri2-0		install
 libxkbcommon0		install
 libxcb-xtest0		install
+patch		install
 libsensors4		install
 ubuntu-mono		install
 libxcb-dri3-0		install
@@ -379,6 +383,7 @@ libcurl3-gnutls		install
 sensible-utils		install
 libwayland-server0		install
 libxcb-xkb1		install
+less		install
 hostname		install
 libx11-xcb1		install
 libdebconfclient0		install
@@ -386,6 +391,7 @@ emacs25		install
 libfribidi0		install
 libxcb-sync1		install
 wicd-daemon		install
+libssl1.0.0		install
 base-files		install
 libxext6		install
 imagemagick-6-common		install
