@@ -1,0 +1,8 @@
+deb http://ftp.cn.debian.org/debian stretch main contrib non-free
+deb-src http://ftp.cn.debian.org/debian stretch main contrib non-free
+
+deb http://ftp.cn.debian.org/debian-security/ stretch/updates main contrib non-free
+deb-src http://ftp.cn.debian.org/debian-security/ stretch/updates main contrib non-free
+
+deb http://ftp.cn.debian.org/debian stretch-updates main contrib non-free
+deb-src http://ftp.cn.debian.org/debian stretch-updates main contrib non-free
