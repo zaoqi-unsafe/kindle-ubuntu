@@ -16,7 +16,6 @@ libcroco3		install
 wicd-gtk		install
 libwebp6		install
 libtre5		install
-libhttp-message-perl		install
 libglade2-0		install
 libkrb5-3		install
 libgssapi-krb5-2		install
@@ -29,7 +28,6 @@ libseccomp2		install
 e2fsprogs-l10n		install
 libdrm-freedreno1		install
 glib-networking-services		install
-libencode-locale-perl		install
 fcitx-pinyin		install
 diffutils		install
 libfontenc1		install
@@ -55,7 +53,6 @@ libsasl2-modules-db		install
 xserver-common		install
 liblist-moreutils-perl		install
 libxcb-xfixes0		install
-libparse-debianchangelog-perl		install
 libcurl3		install
 libgtk2.0-bin		install
 libpresage1v5		install
@@ -111,7 +108,6 @@ libxkbfile1		install
 libmount1		install
 python-gi		install
 gcc-8-base		install
-libpam-cap		install
 libsigc++-2.0-0v5		install
 libsqlite3-0		install
 librsvg2-common		install
@@ -129,31 +125,26 @@ humanity-icon-theme		install
 libbsd0		install
 e2fsprogs		install
 zlib1g		install
-libcgi-fast-perl		install
 fcitx-data		install
 libavahi-common-data		install
 libgmp10		install
 libexporter-tiny-perl		install
-libhttp-date-perl		install
 dconf-gsettings-backend		install
 libgail-common		install
 perl-modules-5.26		install
 libavahi-common3		install
 libxcb-util0		install
 libxcb-util1		install
-liblwp-mediatypes-perl		install
 libiw30		install
 sudo		install
 libncurses5		install
 python2.7		install
-libfcgi-perl		install
 libgettextpo0		install
 libgtk2.0-0		install
 libheimbase1-heimdal		install
 nodejs		install
 libc6		install
 fcitx		install
-libcgi-pm-perl		install
 gpg-wks-server		install
 netbase		install
 libxcursor1		install
@@ -189,7 +180,6 @@ libgail18		install
 libxcb-render0		install
 libpam-runtime		install
 gir1.2-freedesktop		install
-libio-html-perl		install
 xkb-data		install
 libassuan0		install
 elinks-data		install
@@ -237,7 +227,6 @@ libdrm-amdgpu1		install
 libblkid1		install
 emacs25-common		install
 liblqr-1-0		install
-libhtml-tagset-perl		install
 dpkg		install
 libuv1		install
 fontconfig		install
@@ -250,7 +239,6 @@ libxau6		install
 libxaw7		install
 xvkbd		install
 libatk1.0-0		install
-libsub-name-perl		install
 librtmp1		install
 libxcomposite1		install
 adwaita-icon-theme		install
@@ -280,7 +268,6 @@ libxinerama1		install
 tar		install
 systemd-sysv		install
 mawk		install
-libcap2-bin		install
 libuuid1		install
 libnl-3-200		install
 libldap-common		install
@@ -318,7 +305,6 @@ fcitx-frontend-gtk2		install
 fcitx-frontend-gtk3		install
 menu		install
 wpasupplicant		install
-libgdk-pixbuf2.0-bin		install
 grep		install
 login		install
 hicolor-icon-theme		install
@@ -327,7 +313,6 @@ liblua5.3-0		install
 libxfixes3		install
 libthai0		install
 libpolkit-backend-1-0		install
-libio-string-perl		install
 libhogweed4		install
 emacsen-common		install
 ncurses-bin		install
@@ -367,7 +352,6 @@ bash		install
 librest-0.7-0		install
 policykit-1		install
 libatk-bridge2.0-0		install
-libtimedate-perl		install
 libjbig0		install
 findutils		install
 libcap-ng0		install
@@ -437,13 +421,10 @@ aptitude		install
 libip4tc0		install
 libxcb-dri2-0		install
 libxkbcommon0		install
-libclass-accessor-perl		install
 libxcb-xtest0		install
 patch		install
-libhtml-parser-perl		install
 libsensors4		install
 gpg-agent		install
-liburi-perl		install
 ubuntu-mono		install
 libxcb-dri3-0		install
 python-minimal		install
