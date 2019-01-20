@@ -80,7 +80,6 @@ libegl-mesa0		install
 dconf-service		install
 libcairo-gobject2		install
 libm17n-0		install
-lua-filesystem		install
 libnl-genl-3-200		install
 git-man		install
 libsystemd0		install
@@ -134,7 +133,6 @@ libcgi-fast-perl		install
 fcitx-data		install
 libavahi-common-data		install
 libgmp10		install
-awesome-extra		install
 libexporter-tiny-perl		install
 libhttp-date-perl		install
 dconf-gsettings-backend		install
