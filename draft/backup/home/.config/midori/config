@@ -1,0 +1,21 @@
+[settings]
+default-encoding=ISO-8859-1
+enable-developer-extras=true
+enable-site-specific-quirks=true
+enable-javascript=true
+default-charset=ISO-8859-1
+last-window-width=598
+last-window-height=606
+last-panel-position=207
+last-panel-page=1
+last-web-search=8
+search-width=229
+location-entry-search=https://www.baidu.com/s?wd=
+toolbar-items=TabNew,Back,NextForward,ReloadStop,BookmarkAdd,Location,Search,Trash,CompactMenu
+homepage=file:///usr/share/doc/midori/faq.html
+tabhome=about:dial
+download-folder=/home/zaoqi
+maximum-cache-size=0
+toolbar-style=MIDORI_TOOLBAR_SMALL_ICONS
+load-on-startup=MIDORI_STARTUP_BLANK_PAGE
+user-agent=Mozilla/5.0 (X11; Linux) AppleWebKit/538.15 (KHTML, like Gecko) Chrome/46.0.2490.86 Safari/538.15 Midori/0.5
