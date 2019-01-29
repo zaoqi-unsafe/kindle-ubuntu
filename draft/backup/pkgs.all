@@ -99,7 +99,10 @@ libnl-genl-3-200		install
 git-man		install
 libfile-desktopentry-perl		install
 libbrotli1		install
+libfm4		install
 libsystemd0		install
+libfm-extra4		install
+libpulsedsp		install
 glib-networking		install
 libgtk-3-common		install
 base-passwd		install
@@ -117,6 +120,7 @@ libksba8		install
 libavahi-glib1		install
 libgl1		install
 wireless-tools		install
+pulseaudio		install
 gstreamer1.0-plugins-good		install
 libipc-system-simple-perl		install
 cpp-7		install
@@ -132,6 +136,7 @@ libxkbfile1		install
 libmount1		install
 python-gi		install
 gcc-8-base		install
+rtkit		install
 libpam-cap		install
 libsigc++-2.0-0v5		install
 presage		install
@@ -177,6 +182,7 @@ sudo		install
 libqt5dbus5		install
 libncurses5		install
 python2.7		install
+lxmenu-data		install
 libgettextpo0		install
 libmp3lame0		install
 libgtk2.0-0		install
@@ -201,6 +207,7 @@ libqtcore4		install
 libthai-data		install
 libqt5widgets5		install
 gpg		install
+libfm-gtk4		install
 libsepol1		install
 libpolkit-agent-1-0		install
 libk5crypto3		install
@@ -306,6 +313,7 @@ libinput-bin		install
 libblkid1		install
 emacs25-common		install
 liblqr-1-0		install
+libexif12		install
 dpkg		install
 libuv1		install
 fontconfig		install
@@ -409,6 +417,8 @@ shared-mime-info		install
 systemd		install
 libgomp1		install
 libwebkit2gtk-4.0-37		install
+libdbus-glib-1-2		install
+libmenu-cache-bin		install
 libsmartcols1		install
 fcitx-frontend-gtk2		install
 fcitx-frontend-gtk3		install
@@ -441,15 +451,18 @@ midori		install
 libreadline7		install
 libgdk-pixbuf2.0-common		install
 fcitx-modules		install
+libspeexdsp1		install
 openssh-client		install
 libdb5.3		install
 libmagickcore-6.q16-3		install
 libcwidget3v5		install
 iputils-ping		install
 libgtk2.0-common		install
+libtdb1		install
 bsdutils		install
 libgooglepinyin0		install
 libasound2		install
+libasound2-plugins		install
 x11-xserver-utils		install
 libgraphite2-3		install
 libgpm2		install
@@ -484,6 +497,7 @@ libxmu6		install
 libfcitx-utils0		install
 libflac8		install
 libidn11		install
+libfm-data		install
 qttranslations5-l10n		install
 libpython2.7-minimal		install
 multiarch-support		install
@@ -534,7 +548,9 @@ gnupg		install
 libv4lconvert0		install
 libqt4-dbus		install
 wicd		install
+pcmanfm		install
 libtag1v5-vanilla		install
+libmenu-cache3		install
 libjson-c3		install
 libdns1100		install
 libgdbm-compat4		install
@@ -559,6 +575,7 @@ libstdc++6		install
 libnpth0		install
 libavahi-client3		install
 libxcb-glx0		install
+pulseaudio-utils		install
 libpango-1.0-0		install
 libhx509-5-heimdal		install
 libxss1		install
@@ -617,9 +634,12 @@ imagemagick-6-common		install
 libdouble-conversion1		install
 aspell-en		install
 libdatrie1		install
+libfm-gtk-data		install
+tzdata		install
 libglx-mesa0		install
 libglvnd0		install
 libregexp-assemble-perl		install
+libwebrtc-audio-processing1		install
 libdrm-common		install
 libwayland-cursor0		install
 libslang2		install
